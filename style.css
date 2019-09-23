@@ -30,6 +30,17 @@ a#git{
     bottom: 100px;
     left: 35px;
     color: gold;
+    font-size: 80px;
+    text-shadow:2px 2px 4px #000000;
+}
+a#linkedin {
+    border: none;
+    position: absolute;
+    bottom: 100px;
+    left: 200px;
+    color: gold;
+    font-size: 70px;
+    text-shadow:2px 2px 4px #000000;
 }
 button {
     position: absolute;
