@@ -1,3 +1,42 @@
+body{
+    text-align: center;
+    font-size: 24px;
+    background-image: url("background.png");
+    background-position: center;
+    background-attachment: scroll;
+    background-size: cover;
+}
+
 p {
-    color: green;
+    background-color: rgba(232, 252, 13, 0.338);
+    font-weight: bold;
+    margin: 10px 250px;
+    line-height: 40px;
+}
+a {
+    font-size: 50px;
+    text-decoration: none;
+    color: black;
+    border: 6px mediumaquamarine groove;
+    padding: 15px;
+}
+/* footer {
+    position: relative;
+    bottom: 10px;
+} */
+a#git{
+    border: none;
+    position: absolute;
+    bottom: 100px;
+    left: 35px;
+    color: gold;
+}
+button {
+    position: absolute;
+    bottom: 130px;
+    left: 200px;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 15%;
+    background-color: gold;
 }
