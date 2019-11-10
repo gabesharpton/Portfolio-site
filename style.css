@@ -10,9 +10,18 @@ p {
     margin: 10px 250px;
     line-height: 40px;
 }
+
+nav{
+    position: static;
+    justify-content: center;
+    top: 1%;
+    padding: 3% 0;
+    background-color: mediumslateblue;
+    margin: -8px;
+}
 a {
-    font-size: 50px;
-    text-decoration: none;
+    font-size: 20px;
+    /* text-decoration: none; */
     color: black;
     border: 6px mediumaquamarine groove;
     padding: 15px;
@@ -23,16 +32,16 @@ a#git{
     position: absolute;
     top: -1%;
     left: 0%;
-    color: gold;
+    color: black;
     font-size: 80px;
-    text-shadow:2px 2px 4px #000000;
+    text-shadow:2px 2px 3px dimgrey;
 }
 a#linkedin {
     border: none;
     position: absolute;
     top: -1%;
     right: 0%;
-    color: gold;
+    color: deepskyblue;
     font-size: 80px;
     text-shadow:2px 2px 4px #000000;
 }
