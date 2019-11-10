@@ -1,7 +1,8 @@
 body{
     text-align: center;
     font-size: 24px;
-    background-image: linear-gradient(to left, rgba(69, 95, 244, 0.461), rgba(255,0,0,.8));
+    background-color: seashell;
+    font-family: 'Poppins', sans-serif;
 }
 
 p {
@@ -10,9 +11,18 @@ p {
     margin: 10px 250px;
     line-height: 40px;
 }
+
+nav{
+    position: static;
+    justify-content: center;
+    top: -1%;
+    padding: 3.3% 0;
+    background-color: mediumslateblue;
+    margin: -9px;
+}
 a {
-    font-size: 50px;
-    text-decoration: none;
+    font-size: 20px;
+    /* text-decoration: none; */
     color: black;
     border: 6px mediumaquamarine groove;
     padding: 15px;
@@ -21,18 +31,18 @@ a {
 a#git{
     border: none;
     position: absolute;
-    bottom: 10%;
-    left: 40%;
-    color: gold;
-    font-size: 80px;
-    text-shadow:2px 2px 4px #000000;
+    top: -4%;
+    left: 0%;
+    color: black;
+    font-size: 90px;
+    text-shadow:2px 2px 3px dimgrey;
 }
 a#linkedin {
     border: none;
     position: absolute;
-    bottom: 10%;
-    left: 50%;
-    color: gold;
-    font-size: 80px;
+    top: -4%;
+    right: 0%;
+    color: #3399ff;
+    font-size: 90px;
     text-shadow:2px 2px 4px #000000;
 }
