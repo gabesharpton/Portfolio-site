@@ -2,6 +2,7 @@ body{
     text-align: center;
     font-size: 24px;
     background-color: seashell;
+    font-family: 'Poppins', sans-serif;
 }
 
 p {
@@ -14,10 +15,10 @@ p {
 nav{
     position: static;
     justify-content: center;
-    top: 1%;
-    padding: 3% 0;
+    top: -1%;
+    padding: 3.3% 0;
     background-color: mediumslateblue;
-    margin: -8px;
+    margin: -9px;
 }
 a {
     font-size: 20px;
@@ -30,18 +31,18 @@ a {
 a#git{
     border: none;
     position: absolute;
-    top: -1%;
+    top: -4%;
     left: 0%;
     color: black;
-    font-size: 80px;
+    font-size: 90px;
     text-shadow:2px 2px 3px dimgrey;
 }
 a#linkedin {
     border: none;
     position: absolute;
-    top: -1%;
+    top: -4%;
     right: 0%;
-    color: deepskyblue;
-    font-size: 80px;
+    color: #3399ff;
+    font-size: 90px;
     text-shadow:2px 2px 4px #000000;
 }
