@@ -1,7 +1,7 @@
 body{
     text-align: center;
     font-size: 24px;
-    background-image: linear-gradient(to left, rgba(69, 95, 244, 0.461), rgba(255,0,0,.8));
+    background-color: seashell;
 }
 
 p {
@@ -21,8 +21,8 @@ a {
 a#git{
     border: none;
     position: absolute;
-    bottom: 10%;
-    left: 40%;
+    top: -1%;
+    left: 0%;
     color: gold;
     font-size: 80px;
     text-shadow:2px 2px 4px #000000;
@@ -30,8 +30,8 @@ a#git{
 a#linkedin {
     border: none;
     position: absolute;
-    bottom: 10%;
-    left: 50%;
+    top: -1%;
+    right: 0%;
     color: gold;
     font-size: 80px;
     text-shadow:2px 2px 4px #000000;
