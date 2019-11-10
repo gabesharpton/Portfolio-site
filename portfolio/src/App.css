@@ -1,0 +1,50 @@
+
+body{
+  text-align: center;
+  font-size: 24px;
+  background: seashell;
+  font-family: 'Poppins', sans-serif;
+}
+
+p {
+  font-weight: bold;
+  margin: 10px 250px;
+  line-height: 40px;
+  padding-bottom: 200px;
+}
+
+nav{
+  position: absolute;
+  justify-content: center;
+  top: -1%;
+  padding: 3.3% 0;
+  height: 5%;
+  background-color: mediumslateblue;
+  margin: -9px;
+}
+a {
+  font-size: 20px;
+  text-decoration: none;
+  color: black;
+  border: 6px mediumaquamarine groove;
+  padding: 15px;
+}
+
+a#git{
+  border: none;
+  position: absolute;
+  top: -4%;
+  left: 0%;
+  color: black;
+  font-size: 90px;
+  text-shadow:2px 2px 3px dimgrey;
+}
+a#linkedin {
+  border: none;
+  position: absolute;
+  top: -4%;
+  right: 0%;
+  color: #3399ff;
+  font-size: 90px;
+  text-shadow:2px 2px 4px #000000;
+}
