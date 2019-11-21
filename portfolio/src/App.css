@@ -10,7 +10,6 @@ p {
   font-weight: bold;
   margin: 10px 250px;
   line-height: 40px;
-  padding-bottom: 200px;
 }
 
 nav{
@@ -21,6 +20,7 @@ nav{
   height: 5%;
   background-color: mediumslateblue;
   margin: -9px;
+  border-bottom: 2px solid black;
 }
 a {
   font-size: 20px;
@@ -28,12 +28,13 @@ a {
   color: black;
   border: 6px mediumaquamarine groove;
   padding: 15px;
+  margin: 0 35px;
 }
 
 a#git{
   border: none;
   position: absolute;
-  top: -4%;
+  top: -5%;
   left: 0%;
   color: black;
   font-size: 90px;
@@ -42,9 +43,16 @@ a#git{
 a#linkedin {
   border: none;
   position: absolute;
-  top: -4%;
+  top: -5%;
   right: 0%;
   color: #3399ff;
   font-size: 90px;
   text-shadow:2px 2px 4px #000000;
+}
+h1{
+  margin-top: 80px;
+}
+h3{
+  margin: 70px;
+  font-size: 40px
 }
