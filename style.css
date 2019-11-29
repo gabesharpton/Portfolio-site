@@ -46,3 +46,17 @@ a#linkedin {
     font-size: 90px;
     text-shadow:2px 2px 4px #000000;
 }
+a#dev{
+    color: black;
+    font-size: 90px;
+    border:none;
+
+}
+a#genassem{
+    color: red;
+    font-size: 90px;
+    border:none;
+}
+img{
+    font-size: 80px;
+}
