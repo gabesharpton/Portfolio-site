@@ -4,7 +4,10 @@ body{
     background-color: seashell;
     font-family: 'Poppins', sans-serif;
 }
-
+h1{
+    font-size: 80px;
+    margin: 0;
+}
 p {
     position: relative;
     margin-top: 100px;
@@ -17,7 +20,7 @@ nav{
     position: static;
     justify-content: center;
     top: -1%;
-    padding: 3.3% 0;
+    padding: 2% 0;
     background-color: mediumslateblue;
     margin: -9px;
 }
@@ -78,8 +81,8 @@ a#genassem{
 }
 a:hover{
 animation: bounce 1s;
+cursor: alias;
 }
-span{
-    display: inline-grid;
-    grid-row: 4;
+a#bagjav:hover{
+    cursor: progress;
 }
