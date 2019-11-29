@@ -6,9 +6,10 @@ body{
 }
 
 p {
-    /* background-color: rgba(232, 252, 13, 0.338); */
+    position: relative;
+    margin-top: 100px;
     font-weight: bold;
-    margin: 10px 250px;
+    margin: 150px 250px 10px 250px;
     line-height: 40px;
 }
 
@@ -31,32 +32,54 @@ a {
 a#git{
     border: none;
     position: absolute;
-    top: -4%;
-    left: 0%;
+    left: 30%;
     color: black;
-    font-size: 90px;
+    font-size: 70px;
     text-shadow:2px 2px 3px dimgrey;
 }
 a#linkedin {
     border: none;
     position: absolute;
-    top: -4%;
-    right: 0%;
+    left: 40%;
     color: #3399ff;
-    font-size: 90px;
+    font-size: 70px;
     text-shadow:2px 2px 4px #000000;
 }
 a#dev{
     color: black;
-    font-size: 90px;
     border:none;
-
+    margin: 20px;
+    position: absolute;
+    left: 49%;
+    width:60px;
+    text-shadow:2px 2px 4px #000000;
 }
 a#genassem{
     color: red;
-    font-size: 90px;
+    font-size: 70px;
     border:none;
+    position: absolute;
+    left: 60%;
+    text-shadow:2px 2px 4px #000000;
 }
-img{
-    font-size: 80px;
+@keyframes bounce {
+	0%, 20%, 60%, 100% {
+		-webkit-transform: translateY(0);
+		transform: translateY(0);
+	}
+	40% {
+		-webkit-transform: translateY(-20px);
+		transform: translateY(-20px);
+	}
+	80% {
+		-webkit-transform: translateY(-10px);
+		transform: translateY(-10px);
+	}
+}
+a:hover{
+animation: bounce 1s;
+}
+span{
+    display: inline-grid;
+    grid-row: 4;
 }
