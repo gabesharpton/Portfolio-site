@@ -10,10 +10,10 @@ h1{
     margin: 0;
 }
 h2 {
-    display: flex;
-    position: absolute;
-    top: -3%;
-    left: 2%;
+    display: initial;
+    position: relative;
+    left: -7%;
+    font-size: 1.75em;
 }
 p {
     position: relative;
@@ -24,16 +24,24 @@ p {
 }
 
 nav{
-    position: static;
+    position: sticky;
     justify-content: center;
     top: -1%;
-    padding: 2% 0;
+    z-index: 1;
     background-color: mediumslateblue;
     margin: -9px;
+    display: block;
+}
+nav a{
+    border: 1px solid black;
+    background-image: linear-gradient(to bottom right, silver, white);
+    border-radius: 8px;
+    display: inline-block;
+    margin-bottom: 8px;
 }
 a {
     font-size: 20px;
-    /* text-decoration: none; */
+    cursor: alias;
     color: black;
     border: 6px mediumaquamarine groove;
     padding: 15px;
@@ -86,9 +94,9 @@ a#genassem{
 		transform: translateY(-10px);
 	}
 }
-a:hover{
+.icons a:hover{
 animation: bounce 1s;
-cursor: alias;
+
 }
 a#bagjav:hover{
     cursor: progress;
