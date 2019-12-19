@@ -6,16 +6,18 @@ body{
     cursor: default;
 }
 h1{
-    font-size: 80px;
-    margin: 0;
+    font-size: 3.5em;
+    letter-spacing: .05em;
+    margin: 10px;
     font-family:  'Lilita One', cursive;
 }
 h2 {
-    display: initial;
+    display: inline-block;
     position: relative;
-    left: -7%;
-    font-size: 1.75em;
+    left: -4%;
+    font-size: 3em;
     font-family:  'Lilita One', cursive;
+    margin: 15px;
 }
 p {
     position: relative;
@@ -27,7 +29,7 @@ p {
 
 nav{
     position: sticky;
-    justify-content: center;
+    /* justify-content: center; */
     top: -1%;
     z-index: 1;
     background-color: mediumslateblue;
@@ -40,6 +42,8 @@ nav a{
     border-radius: 8px;
     display: inline-block;
     margin-bottom: 8px;
+    padding: 1.2%;
+    
 }
 a {
     font-size: 20px;
