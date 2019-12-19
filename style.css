@@ -8,12 +8,14 @@ body{
 h1{
     font-size: 80px;
     margin: 0;
+    font-family:  'Lilita One', cursive;
 }
 h2 {
     display: initial;
     position: relative;
     left: -7%;
     font-size: 1.75em;
+    font-family:  'Lilita One', cursive;
 }
 p {
     position: relative;
