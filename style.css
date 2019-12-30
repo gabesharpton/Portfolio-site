@@ -115,3 +115,7 @@ h3{
     margin: 1.5em;
     color: gray;
 }
+a#resume {
+    background-color: #3399ff;
+    border: none;
+}
