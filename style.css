@@ -70,13 +70,15 @@ a#linkedin {
     text-shadow:2px 2px 4px #000000;
 }
 a#dev{
-    color: black;
+    /* color: black; */
+    text-decoration: none;
     border:none;
-    margin: 1vw;
+    margin: .6vw;
     position: absolute;
-    font-size: 1vw;
+    font-size: 4vw;
     left: 51%;
-    width:60px;
+    text-shadow:1px 2px 2px #000000;
+
     
 }
 a#genassem{
