@@ -25,6 +25,7 @@ p {
     font-weight: bold;
     margin: 150px 10% 10px 10%;
     line-height: 40px;
+    font-size: 2vw;
 }
 
 nav{
@@ -117,6 +118,7 @@ h3{
     display: inline-block;
     margin: 1.5em;
     color: gray;
+    font-size:2vw;
 }
 a#resume {
     background-color: #3399ff;
