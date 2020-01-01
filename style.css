@@ -6,8 +6,8 @@ body{
     cursor: default;
 }
 h1{
-    font-size: 3.5em;
-    letter-spacing: .05em;
+    font-size: 5vw;
+    letter-spacing: .15em;
     margin: 10px;
     font-family:  'Lilita One', cursive;
 }
@@ -15,7 +15,7 @@ h2 {
     display: inline-block;
     /* position: relative; */
     left: -4%;
-    font-size: 3em;
+    font-size: 3vw;
     font-family:  'Lilita One', cursive;
     margin: 15px;
 }
@@ -46,7 +46,7 @@ nav a{
     
 }
 a {
-    font-size: 20px;
+    font-size: 1.5vw;
     cursor: alias;
     color: black;
     border: 6px mediumaquamarine groove;
@@ -58,7 +58,7 @@ a#git{
     position: absolute;
     left: 32%;
     color: black;
-    font-size: 70px;
+    font-size: 4vw;
     text-shadow:2px 2px 3px dimgrey;
 }
 a#linkedin {
@@ -66,21 +66,22 @@ a#linkedin {
     position: absolute;
     left: 42%;
     color: #3399ff;
-    font-size: 70px;
+    font-size: 4vw;
     text-shadow:2px 2px 4px #000000;
 }
 a#dev{
     color: black;
     border:none;
-    margin: 20px;
+    margin: 1vw;
     position: absolute;
+    font-size: 1vw;
     left: 51%;
     width:60px;
     
 }
 a#genassem{
     color: red;
-    font-size: 70px;
+    font-size: 4vw;
     border:none;
     position: absolute;
     left: 62%;
@@ -122,4 +123,7 @@ a#resume {
     position: sticky;
     width: 10%;
     bottom: 1%;
+}
+#title {
+    color: darkcyan
 }
