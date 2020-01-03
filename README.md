@@ -9,10 +9,6 @@ I am very open to any suggestions you have or critisim for my projects, I firmly
 -----
 ### Languages:
 - **HTML**
-- **CSS**
+- **SASS**
 
 
-### Coming soon
-- React!
-- Maybe some SASS
-- More projects for you guys!!!!
