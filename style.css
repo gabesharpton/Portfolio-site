@@ -163,7 +163,7 @@
     animation: rainbow 8s infinite;
   }
 
-  span#rainbow2 {
+  span.rainbow2 {
     animation: rainbow2 8s infinite;
   }
 
