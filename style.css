@@ -167,23 +167,23 @@
     animation: rainbow2 8s infinite;
   }
 
-  a#git {
+  a#github-profile {
     color: black;
   }
 
-  a#linkedin {
+  a#linkedin-profile {
     color: dodgerblue;
   }
 
-  a#dev {
+  a#dev-to-profile {
     color: black;
   }
 
-  a#genassem {
+  a#general-assembly-profile {
     color: #f93c3a;
   }
 
-  a#email {
+  a#email-address {
     color: #d74439;
   }
 
