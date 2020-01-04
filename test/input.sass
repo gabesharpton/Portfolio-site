@@ -124,7 +124,7 @@ $colors: orange, gold, greenyellow, lime, aquamarine, aqua, dodgerblue, fuchsia,
     flex: 3 3 3
     margin: 0
     margin-left: 2%
-
+    font-family: 'Didact Gothic', sans-serif
   span 
     color: cyan
 
@@ -168,6 +168,7 @@ $colors: orange, gold, greenyellow, lime, aquamarine, aqua, dodgerblue, fuchsia,
   div#languages
     font-size: 4vw
     text-align: center
+    font-family: 'Baloo Bhai', cursive
 
   div.front-end
     background-color: ivory
@@ -175,7 +176,6 @@ $colors: orange, gold, greenyellow, lime, aquamarine, aqua, dodgerblue, fuchsia,
     align-content: start
     grid-template-columns: auto auto auto
     animation: 0
-
 
     i 
       text-shadow: 1px 1px 2px black
@@ -187,11 +187,41 @@ $colors: orange, gold, greenyellow, lime, aquamarine, aqua, dodgerblue, fuchsia,
     align-content: start
     grid-template-columns: auto auto auto
     
-    
-
     i 
       text-shadow: 1px 1px 2px black
       animation: none
+
+  div#projects
+    display: grid
+    align-content: center
+    text-align: center
+    background-color: ivory
+    justify-content: space-evenly
+    padding-left: 8%
+    padding-right: 8%
+    
+    h2 
+      font-family: 'Righteous', cursive
+      text-decoration: underline   
+    img 
+      
+      width: 35%
+      border: none
+      border-radius: 0
+      
+    a 
+      font-size: 3vw
+      font-family: 'Righteous', cursive
+      text-decoration: underline 
+      color: darkblue
+  div#backend, div#bagjav
+    display: flex
+    flex-direction: row
+
+  div#hangman, div#devq
+    display: flex
+    flex-direction: row-reverse
+      
 
   
 
