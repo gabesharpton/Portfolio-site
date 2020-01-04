@@ -259,7 +259,7 @@
   }
   div#projects img {
     width: 35%;
-    border: none;
+    border: 1px solid black;
     border-radius: 0;
   }
   div#projects a {
@@ -280,11 +280,47 @@
   }
 
   footer {
-    background-image: url("vhoa0.jpg");
-    background-position: bottom;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 50%;
+    background-color: slategrey;
+  }
+
+  div#foot {
+    display: flex;
+    flex-flow: row no-wrap;
+    justify-content: space-between;
+    font-size: 2vw;
+    padding-top: 2.5%;
+    padding-bottom: 2.5%;
+    text-align: center;
+  }
+
+  a#resume {
+    margin-left: 3%;
+    height: 2%;
+    width: 3%;
+    flex: 1 1 auto;
+    color: white;
+    border: 2px solid white;
+    background-color: black;
+    text-align: center;
+  }
+
+  h3 {
+    color: white;
+    font-size: 2vw;
+    flex: 1 1 auto;
+  }
+
+  footer i {
+    margin: 0 10%;
+    padding: 0 50%;
+    justify-content: flex-end;
+    flex: 1 1 auto;
+    font-size: 2vw;
+    color: white;
+  }
+  footer i #genassem {
+    height: 104px;
+    width: 200px;
   }
 }
 @media only screen and (max-width: 1019) {
