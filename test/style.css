@@ -218,8 +218,28 @@
     font-size: 4vw;
     text-align: center;
   }
-  div#languages i {
+
+  div.front-end {
+    background-color: ivory;
+    display: grid;
+    align-content: start;
+    grid-template-columns: auto auto auto;
+    animation: 0;
+  }
+  div.front-end i {
     text-shadow: 1px 1px 2px black;
+    animation: none;
+  }
+
+  div.back-end {
+    background-color: ivory;
+    display: grid;
+    align-content: start;
+    grid-template-columns: auto auto auto;
+  }
+  div.back-end i {
+    text-shadow: 1px 1px 2px black;
+    animation: none;
   }
 
   footer {
