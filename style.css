@@ -257,7 +257,8 @@
     text-decoration: underline;
   }
   div#projects img {
-    width: 35%;
+    height: 30vw;
+    width: 35vw;
     border: 1px solid black;
     border-radius: 0;
   }
@@ -266,22 +267,6 @@
     font-family: "Righteous", cursive;
     text-decoration: underline;
     color: darkblue;
-  }
-  div#projects div#backend img {
-    height: 386px;
-    width: 573px;
-  }
-  div#projects div#hangman img {
-    height: 582.547px;
-    width: 564.484px;
-  }
-  div#projects div#bagjav img {
-    width: 584.484px;
-    height: 457.953px;
-  }
-  div#projects div#devq img {
-    width: 564.484px;
-    height: 182.406px;
   }
 
   div#backend, div#bagjav {
