@@ -3,12 +3,21 @@
   padding: 0
   text-decoration: none
 
+@keyframes bigger
+  from 
+    font-size: 6vw
+  to 
+    font-size: 10vw
+
 @keyframes bounce
-  0%, 100%
-    transform: translateY(0)
-  
+  0% 
+    font-size: 6vw
   50% 
     transform: translateY(-15px)
+    font-size: 8vw
+  100%
+    transform: translateY(0)
+    font-size: 10vw
 
 @-webkit-keyframes bounce
   0%, 100%
@@ -24,7 +33,11 @@
   50% 
     transform: translateY(-15px)
 
-$colors: orange, gold, greenyellow, lime, aquamarine, aqua, dodgerblue, fuchsia, indigo, darkorchid, darkorange
+@keyframes downHere
+  from 
+    color: salmon
+  to 
+    color: darkorange
 
 @keyframes rainbow
   0% 
@@ -106,6 +119,13 @@ $colors: orange, gold, greenyellow, lime, aquamarine, aqua, dodgerblue, fuchsia,
     width: 20vw
     border-radius: 50%
     border: .3vw solid cyan
+  a#jumplink
+    font-size: 4.5vw
+    position: relative
+    i 
+      margin: 0
+      animation: rainbow2 5s 3 
+      text-shadow: 2px 2px 2px  cyan, 3px 3px 5px lime
 
   div#paraavatar 
     display: flex
@@ -153,7 +173,9 @@ $colors: orange, gold, greenyellow, lime, aquamarine, aqua, dodgerblue, fuchsia,
       text-shadow: 1px 1px 2px ivory 
       
   i:hover    
-      animation: bounce .4s
+      animation: bigger .5s 1
+      animation-fill-mode: forwards
+      
 
   p 
     margin: 20px 80px
