@@ -161,8 +161,8 @@
   }
   a#jumplink i {
     margin: 0;
-    animation: rainbow2 5s 3;
-    text-shadow: 2px 2px 2px cyan, 3px 3px 5px lime;
+    animation: rainbow2 5s 6;
+    text-shadow: 2px 2px 2px 4px slategrey, 3px 3px 5px 4px black;
   }
 
   div#paraavatar {
@@ -206,12 +206,14 @@
     color: dodgerblue;
   }
 
-  a#dev-to-profile {
-    color: black;
+  a#dev-to-profile i {
+    color: white;
+    animation: none;
   }
 
-  a#general-assembly-profile {
+  a#general-assembly-profile i {
     color: #f93c3a;
+    animation: none;
   }
 
   a#email-address {
@@ -225,7 +227,7 @@
 
   i {
     margin: 3%;
-    text-shadow: 1px 1px 2px ivory;
+    text-shadow: 1px 1px 2px black;
   }
 
   i:hover {
@@ -349,6 +351,7 @@
     flex: 1 1 auto;
     font-size: 2vw;
     color: white;
+    animation: none;
   }
   footer i #genassem {
     height: 104px;

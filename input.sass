@@ -124,8 +124,8 @@
     position: relative
     i 
       margin: 0
-      animation: rainbow2 5s 3 
-      text-shadow: 2px 2px 2px  cyan, 3px 3px 5px lime
+      animation: rainbow2 5s 6 
+      text-shadow: 2px 2px 2px 4px slategrey, 3px 3px 5px 4px black
 
   div#paraavatar 
     display: flex
@@ -158,10 +158,15 @@
       color: black
   a#linkedin-profile
     color: dodgerblue
-  a#dev-to-profile
-    color: black
-  a#general-assembly-profile 
+  a#dev-to-profile i
+    color: white
+    animation: none
+    
+    
+
+  a#general-assembly-profile i
     color: rgb(249, 60, 58)
+    animation: none
   a#email-address
     color: rgb(215, 68, 57)
 
@@ -170,7 +175,7 @@
         display: flexbox
   i
       margin: 3% 
-      text-shadow: 1px 1px 2px ivory 
+      text-shadow: 1px 1px 2px black
       
   i:hover    
       animation: bigger .5s 1
@@ -304,6 +309,7 @@
       flex: 1 1 auto
       font-size: 2vw
       color: white
+      animation: none
       #genassem
         height: 104px
         width: 200px
