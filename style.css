@@ -291,8 +291,8 @@
     text-decoration: underline;
   }
   div#projects img {
-    height: 30vw;
-    width: 35vw;
+    height: 25vw;
+    width: 25vw;
     border: 1px solid black;
     border-radius: 0;
   }
@@ -311,6 +311,11 @@
   div#hangman, div#devq {
     display: flex;
     flex-direction: row-reverse;
+  }
+
+  div#devq img {
+    height: 25vw;
+    width: 30vw;
   }
 
   footer {
