@@ -291,8 +291,6 @@
     text-decoration: underline;
   }
   div#projects img {
-    height: 25vw;
-    width: 25vw;
     border: 1px solid black;
     border-radius: 0;
   }
@@ -313,13 +311,8 @@
     flex-direction: row-reverse;
   }
 
-  div#devq img {
-    height: 25vw;
-    width: 30vw;
-  }
-
   footer {
-    background-color: slategrey;
+    background-color: cornflowerblue;
   }
 
   div#foot {
