@@ -301,7 +301,7 @@
     color: darkblue;
   }
 
-  div#backend, div#bagjav {
+  div#backend, div#bagjav, div#vr-solar {
     display: flex;
     flex-direction: row;
   }
