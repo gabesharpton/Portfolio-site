@@ -306,7 +306,7 @@
     flex-direction: row;
   }
 
-  div#hangman, div#devq {
+  div#hangman, div#devq, div#moviedb {
     display: flex;
     flex-direction: row-reverse;
   }
